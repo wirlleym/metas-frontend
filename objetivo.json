@@ -1,0 +1,12 @@
+[
+  {
+    "descricao": "carro",
+    "valor": 100.000,
+    "atingido": true,
+  },
+  {
+    "descricao": "casa",
+    "valor": 500.000,
+    "atingido": false,
+  },
+]
