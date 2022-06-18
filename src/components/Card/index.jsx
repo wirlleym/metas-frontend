@@ -21,9 +21,9 @@ const Card = ({ objetivo, getObjetivo }) => {
     <>
       <div className="card-container">
         <div className="card-header">
-          <p>{`R$${objetivo.descricao.toFixed(2)}`}</p>
+          <p>{objetivo.descricao} </p>
         </div>
-        <h3>{objetivo.valor}</h3>
+        <h3>{`R$${objetivo.valor.toFixed(2)}`}</h3>
         <p>{objetivo.atingido}</p>
         <div className="card-body">
           <span title="Editar">
