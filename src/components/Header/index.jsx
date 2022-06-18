@@ -1,8 +1,8 @@
 import "./style.css";
-import logo from "../../assets/icons/logo.svg";
-import newPaletteIcon from "../../assets/icons/paleta.svg";
+// import logo from "../../assets/icons/logo.svg";
+// import newPaletteIcon from "../../assets/icons/paleta.svg";
 import ModalNewObjetivo from "../Modals/ModalNewObjetivo";
-import { toast } from "react-hot-toast";
+// import { toast } from "react-hot-toast";
 import { useState } from "react";
 
 const Header = ({ getObjetivo }) => {
@@ -19,12 +19,12 @@ const Header = ({ getObjetivo }) => {
           <h2>Metas e Objetivos</h2>
         </div>
         <div className="headerOptions-container">
-          <img
+          {/* <img
             className="headerOptions-newPaletteIcon"
             alt="Icone de criar nova paleta"
             src={newPaletteIcon}
             onClick={handleShowModalCreate}
-          />
+          /> */}
         </div>
       </div>
       {showModalCreate && (

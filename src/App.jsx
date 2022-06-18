@@ -12,7 +12,7 @@ const App = () => {
 
   // Declaração das funções
   const getObjetivo = async () => {
-    const response = await api.get("/objetivo/listar-todos");
+    const response = await api.get("/listar-todos");
 
     setObjetivo(response.data);
   };

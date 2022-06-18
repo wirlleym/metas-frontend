@@ -1,8 +1,8 @@
 import "./style.css";
-import { toast } from "react-hot-toast";
+// import { toast } from "react-hot-toast";
 import { FaEdit, FaTrashAlt } from "react-icons/fa";
 import ModalRemoveObjetivo from "../Modals/ModalRemoveObjetivo";
-import ModalEditObjetivo from "../Modals/Objetivo";
+import ModalEditObjetivo from "../Modals/ModalEditObjetivo";
 import { useState } from "react";
 
 const Card = ({ objetivo, getObjetivo }) => {

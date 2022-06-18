@@ -3,7 +3,7 @@ import { toast } from "react-hot-toast";
 import api from "../../../api";
 // import { useEffect } from "react";
 
-const ModalRemovePaletteObjetivo = ({ closeModal, objetivo, getObjetivo }) => {
+const ModalRemoveObjetivo = ({ closeModal, objetivo, getObjetivo }) => {
   const handleRemoveObjetivo = async () => {
 
     // REQUISIÇÃO COM AXIOS
